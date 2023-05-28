@@ -25,7 +25,7 @@ void setup()
 void loop()
 {
  
-  cm = 0.01723 * readUltrasonicDistance(7, 7);
+  cm = 0.01723 * readUltrasonicDistance(7, 8);
   
   inches = (cm / 2.54);
   Serial.print(inches);
